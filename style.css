@@ -26,12 +26,12 @@ header {
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 10px;
 }
 
 .logo img {
-  height: 32px;
+  height: 15px;
 }
 
 .logo span {
