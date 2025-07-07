@@ -1,7 +1,6 @@
 body {
   background: lightblue;
 }
-/* General Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,9 +17,7 @@ body, html {
 }
 
 .hero {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: flex-end !important;
+
   height: 100vh !important;
   padding: 80px 60px;
   background: url('img/hero.jpg') center/cover no-repeat;
@@ -56,7 +53,7 @@ header {
   color: #222;
 }
 
-/* Donate Button */
+
 .donate-btn {
   background-color: #f1c40f;
   color: white;
