@@ -12,8 +12,9 @@ body, html {
   height: 100%;
   width: 100%;
 }
+
 .logo img {
-  height: 32px !important;
+  height: 32px;
 }
 
 .hero {
@@ -45,16 +46,11 @@ header {
   gap: 10px;
 }
 
-.logo img {
-  height: 32px;
-}
-
 .logo span {
   font-weight: bold;
   font-size: 1.2rem;
   color: #222;
 }
-
 
 .donate-btn {
   background-color: #f1c40f;
@@ -71,16 +67,6 @@ header {
 }
 
 /* Hero Section */
-.hero {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  height: 100vh;
-  padding: 80px 60px;
-  background: url('img/hero.jpg') center/cover no-repeat;
-  position: relative;
-}
-
 .hero::before {
   content: '';
   position: absolute;
