@@ -17,6 +17,16 @@ body, html {
   height: 32px !important;
 }
 
+.hero {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-end !important;
+  height: 100vh !important;
+  padding: 80px 60px;
+  background: url('img/hero.jpg') center/cover no-repeat;
+  position: relative;
+}
+
 /* Header */
 header {
   position: absolute;
