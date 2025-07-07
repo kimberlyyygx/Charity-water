@@ -5,6 +5,8 @@
   padding: 0;
 }
 
+background: url('img/hero.jpg') center/cover no-repeat;
+
 body, html {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
