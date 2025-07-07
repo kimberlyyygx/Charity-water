@@ -1,3 +1,6 @@
+body {
+  background: lightblue;
+}
 /* General Reset */
 * {
   box-sizing: border-box;
@@ -9,6 +12,9 @@ body, html {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   width: 100%;
+}
+.logo img {
+  height: 32px !important;
 }
 
 /* Header */
